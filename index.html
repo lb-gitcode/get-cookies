@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="LB">
+    <meta name="description" content="School assignment">
+    <meta name="keywords" content="html, css, web, web development, javascript">
+    <link rel="icon" href="./assets/media/favicon.png?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script src="./assets/script/app.js" defer type="module"></script>
+    <!-- Links for fonts -->
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero-banner">
+        <div>
+          <h1>Cookies</h1>
+          <p>Choose which cookies to accept.</p>
+        </div>
+      </section>
+      <dialog id="cookies-modal">
+        <h2>Cookies</h2>
+        <p>We use cookies to store user information. Accept cookies?</p>
+        <div>
+          <input type="button" value="Accept All" id="accept-btn">
+          <input type="button" value="Options" id="settings-btn">
+        </div>
+      </dialog>
+      <dialog id="settings-modal">
+        <h2>Settings</h2>
+        <p>Customize cookie settings.</p>
+        <form>
+          <div class="setting">
+            <h4>Browser</h4>
+            <label class="switch">
+              <input type="checkbox" id="browser-check" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <h4>Operating System</h4>
+            <label class="switch">
+              <input type="checkbox" id="os-check" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <h4>Screen Width</h4>
+            <label class="switch">
+              <input type="checkbox" id="width-check" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="setting">
+            <h4>Screen Height</h4>
+            <label class="switch">
+              <input type="checkbox" id="height-check" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div>
+            <input type="button" value="Save Preferences" id="settings-accept-btn">
+          </div>
+        </form>
+      </dialog>
+    </main>
+    <noscript>
+      <p>This page requires a JavaScript-enabled browser.</p>
+    </noscript>
+  </body>
+</html>
