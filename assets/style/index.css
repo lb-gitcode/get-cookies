@@ -35,7 +35,12 @@ dialog {
     background-color: grey;
     color: floralwhite;
   }
-  input:hover {
+  #settings-btn {
+    background-color: lightgrey;
+    color: rgb(68, 68, 68);
+    border: 1px solid rgb(190, 190, 190);
+  }
+  input:hover, #settings-btn:hover {
     background-color: black;
     border-color: black;
     color: lightblue;
